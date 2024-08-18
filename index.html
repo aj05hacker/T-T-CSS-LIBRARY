@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Library | Time and Thought</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #282c34;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            background: #1c1f26;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-in-out 0.5s;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #ffffff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            animation: fadeIn 2s ease-in-out 1s;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Library for "Time and Thought"</h1>
+        <p>Created by Abdul Hajees. This is a library of styles used for the "Time and Thought" project. Enjoy exploring the styles!</p>
+        <a href="https://blogs.abdulhajees.in" class="button">Visit the Blog</a>
+    </div>
+</body>
+</html>
